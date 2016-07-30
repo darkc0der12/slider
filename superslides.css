@@ -43,7 +43,7 @@
 .slides-pagination {
   position: absolute;
   z-index: 3;
-  bottom: 0;
+  bottom: 30px;
   text-align: center;
   width: 100%;
 }
