@@ -2,10 +2,10 @@
   position: relative;
   width:100%;
   height:100vh;
+  top:60px;
 }
 #slides .slides-container {
   display: none;
-  padding-top:60px;
 }
 #slides .scrollable {
   *zoom: 1;
