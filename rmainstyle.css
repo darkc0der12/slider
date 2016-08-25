@@ -39,7 +39,7 @@ header {
 }
 
 
-#advert {
+#typenepali {
 	
   background-image:url(http://4.bp.blogspot.com/-hY0pYjn2ks0/V75Z7SlmYtI/AAAAAAAAACY/Jg77HCs6OcYsv6wlZuy236Be4n3_5i23ACK4B/s1600/advert.png);
   background-size: cover;
@@ -54,7 +54,7 @@ header {
   width: 100%;
 }
 
-.advert-inner { min-height:100px;
+.typenepali-inner { min-height:100px;
   position: relative;
   top:50%;
   background: rgba(0, 0, 0, 0.5) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;
@@ -84,7 +84,7 @@ header {
   padding:20px;
 }
 
-.advert-copy {
+.typenepali-copy {
   position: absolute;
   top: 55%;
   height: 10em;
