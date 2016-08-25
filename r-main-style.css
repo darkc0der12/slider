@@ -1,0 +1,264 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+font-family: 'Roboto', sans-serif;
+	}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header {
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  text-align:center;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+
+
+#home {
+  background: url(http://1.bp.blogspot.com/-vRIjCFD69pM/V7usp3j4XjI/AAAAAAAAABI/hkYyy2w_-YEQNHEZegceQXREUUusVW-MwCK4B/s320/beauty_art_wallpaper.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  
+}
+
+
+
+#about {
+  background: url(http://4.bp.blogspot.com/-fAii3v1u1IY/V7vNEh98WKI/AAAAAAAAABg/0F-aMNiDwbo0Z_e0lhImZ5QxpXTUurIBwCK4B/s320/31247348-Various-makeup-products-on-dark-background-Stock-Photo-beauty.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: static;
+}
+
+
+#advert {
+	
+  background-image:url(advert.png);
+  background-size: cover;
+  background-position: center center;
+  background-color:#0099ff;
+}
+
+.hero, .content {
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.advert-inner { min-height:100px;
+  position: relative;
+  top:50%;
+  background: rgba(0, 0, 0, 0.5) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;
+  }
+
+.inner {
+  min-height: 600px;
+  position: relative;
+	overflow:hidden;
+}
+.ser-inner {
+  min-height: 400px;
+  position: relative;
+	overflow:hidden;
+}
+
+.hero .inner {
+  background: rgba(0, 0, 0, 0.7) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;
+}
+
+.copy {
+  position: absolute;
+  top: 40%;
+  height: 10em;
+  margin-top: -5em;
+  width: 100%;  
+  padding:20px;
+}
+
+.advert-copy {
+  position: absolute;
+  top: 55%;
+  height: 10em;
+  margin-top: -5em;
+  width: 100%;  
+  padding:20px;
+  
+}
+.hero h1, .hero p {
+  color: #fff;
+}
+
+.content h1, .content p {
+  color: #333;
+}
+
+h1 {
+  margin: 0px;
+  font-weight: 400;
+  font-size: 32px;
+  padding: 0px 20px;
+}
+
+p {
+  
+  font-size: 16px;
+  padding: 0px 20px;
+}
+
+i {
+	color:pink;
+	}
+	
+span {
+	color:yellow;
+	}
+	
+.butt {
+	position:relative;
+	top:45px;
+	text-align:center;
+	padding:5px 10px;
+	border:2px solid #fff;
+	border-radius:5px;
+	color:#fff;
+	display:inline-block;
+	cursor:pointer;
+	transition:all 0.5s ease-in;
+	}
+
+.butt:hover {
+	background:#ddd;
+	color:#333;
+	}
+	
+.butto {
+	position:relative;
+	text-align:center;
+	padding:5px 10px;
+	border:2px solid #fff;
+	border-radius:5px;
+	color:#fff;
+	display:inline-block;
+	cursor:pointer;
+	transition:all 0.5s ease-in;
+	top:5px;bottom:5px;
+	}
+
+.butto:hover {
+	background:#fff;
+	color:#000;
+	}
+	
+hr {
+	height:400px;
+	width:2px;
+	color:#fff;
+	display:block;
+	
+	}
+	
+.main_btn{
+display:inline;
+position:fixed;
+top:70px;
+z-index:99;
+right:10%;
+  background-color:#F44336;
+  width:70px;
+  height:70px;
+  border-radius:100%;
+  background:#F44336;
+  border:none;
+  outline:none;
+  color:#FFF;
+  font-size:14px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition:.5s;  
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.main_btn:hover {
+cursor:pointer;
+background:#eee;
+color:#000;
+
+	}
+	
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+
+
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 768px) {
+
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 30%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+.service_Container{
+    position:relative;
+	padding:0px 20px 50px 20px;
+	color:#fff;
+	text-align:center;
+	margin:70px 0;
+    }
+
+
+.service ul{
+	list-style:none;
+    text-align: center;
+    text-decoration:none;
+	padding:10px 0 10px 20px;
+}
+
+
+.service li{       
+	background:#A505A5;
+    margin:10px 0;
+	display:inline;
+	padding:30px;
+	transition:all 1s ease-in-out;
+	
+    }
+	
+.service li:hover {
+	background:#058905;
+	}
+	
+a  {
+	color:white;
+	text-decoration:none;
+	
+	}
+a:hover {
+	color:yellow;
+	}
+	
+.whitec {color:white;}
